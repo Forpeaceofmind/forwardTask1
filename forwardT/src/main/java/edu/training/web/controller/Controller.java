@@ -13,8 +13,6 @@ import edu.training.web.logic.LogicStub;
 
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-	//
 	private final LogicStub logic = new LogicStub();
 
 	public Controller() {
